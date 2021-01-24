@@ -17,3 +17,7 @@ h1 {
 .nav-links a {
   color: grey;
 }
+
+.dropdown-menu {
+  margin-left: 100px;
+}
