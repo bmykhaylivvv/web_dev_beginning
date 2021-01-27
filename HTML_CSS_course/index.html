@@ -13,45 +13,40 @@
     <link rel="stylesheet" href="/HTML_CSS_course/style.css" />
   </head>
   <body>
-    <h1>Why U Do Dis?</h1>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim saepe
-      doloribus id ipsam doloremque, fuga voluptatem neque eligendi omnis
-      fugiat!
-    </p>
-    <section class="random">
-      <h1>My story</h1>
-      <p>This is an awesome story</p>
+    <header>
+      <nav>
+        <h1 id="logo">Logo</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contect</a></li>
+        </ul>
+        <div class="clear"></div>
+      </nav>
+    </header>
+    <section class="hero-section">
+      <h2>The Cooking Master</h2>
+      <h3>Buy our homemade bakery</h3>
+      <button>Buy</button>
     </section>
-    <section class="gallery">
-      <h1 class="my-list">My list</h1>
-      <ul class="nav-links">
-        <li><a href="#">Hello there</a></li>
-        <li><a href="#">Hello there</a></li>
-        <li>Hello there</li>
-        <li>Hello there</li>
-        <li>Hello there</li>
-        <a href="#">Hello</a>
-      </ul>
+    <section class="form-section">
+      <header>
+        <h2>Contact Us</h2>
+      </header>
+      <form>
+        <label for="name-input">Name:</label>
+        <input type="text" name="name" id="name-input" />
+        <label for="email-input">Email</label>
+        <input type="email" name="email" id="email-input" />
+        <label for="message-input">Message</label>
+        <textarea
+          name="message"
+          id="message-input"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button>Submit</button>
+      </form>
     </section>
-
-    <ul>
-      <li>Hello there</li>
-      <li>Hello there</li>
-      <li>Hello there</li>
-      <li>Hello there</li>
-      <li>Hello there</li>
-    </ul>
-
-    <div class="dropdown-menu">
-      <select name="items" id="">
-        <option value=""></option>
-        <option value="item_1">item_1</option>
-        <option value="item_2">item_2</option>
-        <option value="item_3">item_3</option>
-        <option value="item_4">item_4</option>
-        <option value="item_5">item_5</option>
-      </select>
-    </div>
   </body>
 </html>
